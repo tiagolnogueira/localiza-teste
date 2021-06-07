@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DZb65ce5OTw+c6FJm/u+HrdAttI8zUgWlc7jkaJ+01ZciDHwbHiASyIIHsx/dyfTI3etPLek0F77d/muj9RcwA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\tinogueira\\source\\repos\\Localiza.Teste\\src\\Localiza.Teste.Application\\Localiza.Teste.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tinogueira\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
