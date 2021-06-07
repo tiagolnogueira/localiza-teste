@@ -6,7 +6,6 @@ namespace Localiza.Teste.Api.Configuration
     {
         public AutoMapperConfig()
         {
-            //CreateMap<Fornecedor, FornecedorViewModel>().ReverseMap();
         }
     }
 }

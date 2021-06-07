@@ -1,4 +1,7 @@
-﻿using Microsoft.Extensions.DependencyInjection;
+﻿using Localiza.Teste.Application.Interfaces;
+using Localiza.Teste.Application.Notificacoes;
+using Localiza.Teste.Application.Services;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Localiza.Teste.Api.Configuration
 {
@@ -7,7 +10,7 @@ namespace Localiza.Teste.Api.Configuration
         public static IServiceCollection ResolveDependencies(this IServiceCollection services)
         {
             services.AddScoped<INotificador, Notificador>();
-            services.AddScoped<IFornecedorService, FornecedorService>();
+            services.AddScoped<IMathService, MathService>();
 
             return services;
         }
