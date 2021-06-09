@@ -1,16 +1,24 @@
 {
   "version": 2,
-  "dgSpecHash": "l/zDIsmhfLt3se1YbXGuT0jW1reekE70GcgAMN0odfB3kCriQ3rUMJmtDA1YQIvyH6fEW6JQSy5jwxIawN/LLQ==",
+  "dgSpecHash": "oNHEcUD+4XyEFCHlonwQNvAa0hvnhArr2wBSPTYJQIidJTced7C8BsiaWX74u7RfrVeDDX1RvpIlAD2vXyRLyw==",
   "success": true,
   "projectFilePath": "C:\\Users\\tinogueira\\source\\repos\\Localiza.Teste\\src\\Localiza.Teste.Api\\Localiza.Teste.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tinogueira\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\fluentvalidation\\10.2.3\\fluentvalidation.10.2.3.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning\\5.0.0\\microsoft.aspnetcore.mvc.versioning.5.0.0.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.aspnetcore.mvc.versioning.apiexplorer\\5.0.0\\microsoft.aspnetcore.mvc.versioning.apiexplorer.5.0.0.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\tinogueira\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512",
     "C:\\Users\\tinogueira\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []

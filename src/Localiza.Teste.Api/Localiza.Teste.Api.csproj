@@ -1,17 +1,23 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+		<UserSecretsId>7dab9b15-1049-45cc-9427-5970888e32a4</UserSecretsId>
+		<DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+		<DockerfileContext>..\..</DockerfileContext>
+	</PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
-  </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
+	</ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\Localiza.Teste.Application\Localiza.Teste.Application.csproj" />
-    <ProjectReference Include="..\Localiza.Teste.Domain\Localiza.Teste.Domain.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Localiza.Teste.Application\Localiza.Teste.Application.csproj" />
+		<ProjectReference Include="..\Localiza.Teste.Domain\Localiza.Teste.Domain.csproj" />
+	</ItemGroup>
 
 
 </Project>

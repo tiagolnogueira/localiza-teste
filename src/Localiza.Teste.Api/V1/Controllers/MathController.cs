@@ -1,12 +1,13 @@
 ﻿using AutoMapper;
+using Localiza.Teste.Api.Controllers;
 using Localiza.Teste.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
-namespace Localiza.Teste.Api.Controllers
+namespace Localiza.Teste.Api.V1.Controllers
 {
-    [Route("api/math")]
+    [ApiVersion("1.0")]
+    [Route("api/v{version:apiVersion}")]
     public class MathController : MainController
     {
         private readonly IMathService _mathService;
@@ -15,7 +16,7 @@ namespace Localiza.Teste.Api.Controllers
                                   IMathService mathService,
                                   IMapper mapper) : base(notificador)
         {
-
+            _mathService = mathService;
         }
 
         [HttpPost("calcular-primos/{valor:int}")]

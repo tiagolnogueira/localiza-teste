@@ -1,6 +1,5 @@
 ﻿using Localiza.Teste.Application.Interfaces;
 using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace Localiza.Teste.Application.Services
 {
@@ -35,11 +34,6 @@ namespace Localiza.Teste.Application.Services
                 }
             }
             return primos;
-        }
-
-        public void Dispose()
-        {
-            throw new System.NotImplementedException();
         }
     }
 }
